@@ -17,6 +17,8 @@ int button_static = 0;
 #include "OLEDDisplayUi.h"
 #include "images.h"
 #include "font.h"
+#include <ESP8266WiFi.h>
+#include <FirebaseArduino.h>
 SSD1306Wire display(0x3c, SDA, SCL, GEOMETRY_128_32);
 OLEDDisplayUi ui(&display);
 
